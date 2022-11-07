@@ -1,0 +1,2942 @@
+.header-section {
+    background-image: url("../images/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+}
+
+.navbar-section {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffffff;
+}
+
+.banner-icon1 {
+    position: absolute;
+    right: 100px;
+}
+
+.banner .form {
+    background: linear-gradient(107.97deg, rgba(93, 135, 158, 0.4) 0.99%, rgba(255, 255, 255, 0.1) 101.23%);
+    box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.2), inset 5px 5px 4px #587C9B;
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+    padding: 0 1.3em;
+    font-size: 16px;
+    width: 450px;
+    height: 256px;
+    padding: 0px 10px;
+    position: absolute;
+    top: 390px;
+    right: 80px;
+}
+
+.banner .form .form-title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 35px;
+    font-family: 'Gurajada-Regular';
+    color: #FFFFFF;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.banner .form .form-data .form-input {
+    width: 245px;
+    border: 1.5px solid #8c8c8c;
+    height: 0px;
+    background: #DCDCDC;
+    border-radius: 10px;
+    font-family: 'Gurajada-Regular';
+    font-size: 22px;
+    color: #A5A5A5;
+    padding: 33px;
+}
+
+.banner .form .form-data .form-control {
+    width: 20%;
+    display: inline-flex;
+    background: #DCDCDC;
+    border-radius: 10px;
+    font-family: 'Gurajada-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    color: #494949;
+
+}
+
+.banner .form .form-data {
+    padding: 10px;
+    text-align: center;
+}
+
+.banner .form .form-data .form-btn {
+    width: 84%;
+    border-radius: 25px;
+    color: #FFFFFF;
+    font-family: 'Gurajada-Regular';
+    font-size: 24px;
+    line-height: 62px;
+    background: #39596A;
+}
+
+.banner .main-heading .heading {
+    position: absolute;
+    left: 140px;
+    top: 700px;
+    color: #FFFFFF;
+    font-size: 39px;
+    font-family: 'Gurajada-Regular';
+}
+
+.banner .main-heading .sub-heading {
+    position: absolute;
+    left: 145px;
+    top: 770px;
+    color: #FFFFFF;
+    font-family: 'Smooch-Regular';
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 49px;
+}
+
+.banner .main-heading::after {
+    content: '';
+    border-bottom: solid 1px #FFFFFF;
+    position: absolute;
+    width: -webkit-fill-available;
+    height: 0px;
+    left: 580px;
+    top: 795px;
+}
+
+/* end of banner container */
+
+
+/* start of allcard container */
+.allcard .cards .rect-one {
+    background-color: #39596A;
+    height: 75px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    z-index: 1;
+    padding: 20px 0px;
+    text-align: center;
+    background-color: #4D6876;
+}
+
+.allcard .cards .Yart-sm-text {
+    color: #FFFFFF;
+    display: inline-flex;
+    font-size: 18px;
+    font-family: 'Lato-Regular';
+}
+
+.allcard .cards .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: calc(100% - 75px);
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background: rgba(23, 23, 23, 0.5);
+}
+
+.allcard .cards:hover .overlay {
+    opacity: 1;
+}
+
+.allcard .cards .overlay .text {
+    color: #FFFFFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    font-family: 'Lato-Regular';
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.allcard .cards .rect-one .arrow {
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    transition: 0.5s;
+    border-top: 12px solid #FFFFFF;
+    top: 35px;
+    left: 75%;
+}
+
+.allcard .cards:hover .arrow {
+    transform: rotate(180deg);
+}
+
+/* end of allcard container */
+
+
+/* start of teknende container */
+.teknende {
+    background: #E5E5E5;
+}
+
+.teknende .container .carousel-indicators {
+    top: 460px;
+}
+
+.teknende .container .carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid #383838;
+}
+
+.teknende .container .carousel-indicators li.active {
+    background-color: #383838;
+}
+
+.teknende .container .card-rw-img {
+    padding-top: 85px;
+    padding-bottom: 120px;
+}
+
+.teknende .container .card-rw-img .card4-img {
+    width: 100%;
+    border: 1px solid #000000;
+    box-shadow: inset 0px 4px 4px rgba(120, 120, 120, 0.25);
+    filter: drop-shadow(0px 4px 4px rgba(125, 125, 125, 0.25));
+    padding: 15px;
+}
+
+.teknende .container .card-rw-img .carousel-inner .header-card {
+    font-weight: 400;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Gurajada-Regular';
+}
+
+.teknende .container .card-rw-img .carousel-inner .carousel-item .sub-header.card {
+    font-family: 'Smooch-Regular';
+    font-weight: 400;
+    font-size: 60px;
+    text-align: center;
+    color: #28414F;
+    background: none;
+    border: none;
+    box-shadow: none;
+}
+
+.teknende .container .card-rw-img .carousel-inner .horizontal-rule {
+    border: 1px solid #000000;
+    margin-top: 8px;
+    margin-bottom: 60px;
+}
+
+.teknende .container .card-rw-img .carousel-inner .carousel-item .para-card {
+    text-align: center;
+    font-family: 'Lato-Regular';
+    font-size: 28px;
+    color: #000000;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.teknende .container .card-rw-img .carousel-inner .carousel-item .last-p-card {
+    text-align: center;
+    font-family: 'Lato-Regular';
+    font-size: 38px;
+    line-height: 48px;
+    color: #000000;
+}
+
+.teknende .container .card-rw-img .carousel-inner .carousel-item .last-p-card .bold-txt {
+    color: #3F3F3F;
+    font-weight: bold;
+}
+
+/* End of Teknende container */
+
+/* start of nasil container */
+.nasil {
+    background-image: url(../images/nasil-calisar-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 100px;
+}
+
+.nasil .header-nasil {
+    font-size: 50px;
+    padding-top: 28px;
+    line-height: 60px;
+    font-weight: 600;
+    font-family: 'Lato-Regular';
+    color: #28414F;
+    text-align: center;
+}
+
+.nasil .card .card-img {
+    width: 250px;
+    height: 200px;
+}
+
+.nasil .card.nasil-card {
+    border-radius: 10px;
+    width: 360px;
+    height: 503px;
+}
+
+.nasil .card .card-body {
+    padding: 0px;
+}
+
+.nasil .card .card-body .card-header {
+    color: #4D6876;
+    text-align: center;
+    font-family: 'Gurajada-Regular';
+    font-size: 49px;
+    border: none;
+    background: none;
+}
+
+.nasil .card .card-body .card-paragh {
+    font-family: 'Lato-Regular';
+    font-size: 22px;
+    color: #000000;
+    text-align: center;
+}
+
+.nasil .card .card-body .card-footer {
+    background-color: #FFFFFF;
+    border-top: 0px solid #FFFFFF;
+    color: #4D6876;
+    float: right;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    font-family: 'Lato-Regular';
+}
+
+.nasil .card .card-body .arrow {
+    border: solid #4D6876;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 4px;
+    transform: rotate(-45deg);
+    margin: 1px 5px;
+}
+
+/* End of nasil container */
+
+/* start of Hizmet container */
+.hizmet {
+    background-color: #E5E5E5;
+    padding: 50px;
+}
+
+.hizmet .container .header-hizmet {
+    font-family: 'Lato-Regular';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    color: #28414F;
+    text-align: center;
+}
+
+.hizmet .container .card {
+    border-radius: 0px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.hizmet .container .card .card-content {
+    padding: 10px 30px;
+    line-height: 40px;
+}
+
+.hizmet .container .card .card-content .card-title {
+    font-family: 'Inter-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: #6C6C6C;
+}
+
+.hizmet .container .card .card-body .card-child-box {
+    background-color: #4D6876;
+    position: absolute;
+    padding: 10px 30px;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Inter-Regular';
+    line-height: 36px;
+    color: #FFFFFF;
+    bottom: 88px;
+    right: 0;
+}
+
+.hizmet .container .card .card-body .card-child-box-img {
+    width: 100%;
+}
+
+.hizmet .container .card .card-content .card-sub-title {
+    font-family: 'Inter-Regular';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 30px;
+    color: #3C3C3C;
+    margin-top: 0px;
+}
+
+.hizmet .container .hizmet-btn {
+    font-family: 'Inter-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+    background: #4D6876;
+    border-radius: 5px;
+    border: none;
+    padding: 14px 47px;
+}
+
+/* End of Hizmet container */
+.mrinalar {
+    background: url(../images/marinalar-bg1.png), #E5E5E5;
+    background-position: top center;
+    background-size: 100% auto, cover;
+    background-repeat: no-repeat;
+    padding: 50px 100px;
+}
+
+.mrinalar .container .carousel-indicators {
+    top: 480px;
+}
+
+.mrinalar .container .carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid #383838;
+}
+
+.mrinalar .container .carousel-indicators li.active {
+    background-color: #383838;
+}
+
+.mrinalar .container .header-mrinalar {
+    color: #F4F4F4;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 60px;
+    text-align: center;
+    font-family: 'Lato-Regular';
+}
+
+.mrinalar .container .subheader-mrinalar {
+    font-family: 'Smooch-Regular';
+    font-size: 35px;
+    font-style: normal;
+    line-height: 49px;
+    font-weight: 400;
+    color: #F4F4F4;
+    text-align: center;
+}
+
+.mrinalar .container .carousel-inner .carousel-item .parent-mrinalar {
+    position: relative;
+}
+
+.mrinalar .container .carousel-inner .carousel-item .parent-mrinalar .card .card-mrinalar-header {
+    padding: 0px 30px 0px 10px;
+    font-size: 34px;
+    line-height: 42px;
+    font-weight: 600;
+    font-family: 'Lato-Regular';
+}
+
+.mrinalar .container .carousel-inner .carousel-item .parent-mrinalar .card.mrinalar-card {
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    width: 80%;
+    position: absolute;
+    bottom: -50px;
+    right: 0;
+    border-radius: 0px;
+}
+
+.mrinalar .container .carousel-inner .carousel-item .parent-mrinalar .card .card-footer {
+    background-color: #FFFFFF;
+    border-top: 0px solid #FFFFFF;
+    color: #4D6876;
+    float: right;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    font-family: 'Lato-Regular';
+}
+
+.mrinalar .container .carousel-inner .carousel-item .parent-mrinalar .card .arrow {
+    border: solid #4D6876;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 4px;
+    transform: rotate(-45deg);
+    margin: 1px 5px;
+}
+
+/* End of mrinalar page */
+
+/* start of Blog container */
+.blog {
+    background-color: #d7d4d4;
+    background-size: 100% auto, cover;
+    padding: 40px 100px;
+}
+
+.blog .container .header-blog {
+    font-family: 'Lato-Regular';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    color: #4D6876;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.blog .container .parent-blog {
+    position: relative;
+}
+
+.blog .container .parent-blog .card .card-blog-header {
+    font-family: 'Lato-Regular';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 32px;
+    color: #000000;
+    padding-bottom: 22px;
+}
+
+.blog .container .parent-blog .card .card-blog-paragh-section {
+    font-family: 'Lato-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #595959;
+}
+
+.blog .container .parent-blog .card {
+    width: 346px;
+    height: 464px;
+    position: absolute;
+    top: 46px;
+    left: 155px;
+    border-radius: 0px;
+    box-shadow: 0px 4px 4px #01a6fc;
+}
+
+.blog .container .parent-blog .child-card-img {
+    width: 336px;
+    height: 458px;
+}
+
+.blog .container .parent-blog .card .card-footer {
+    background-color: #FFFFFF;
+    border-top: 0px solid #FFFFFF;
+    color: #4D6876;
+    float: right;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    font-family: 'Lato-Regular';
+}
+
+.blog .container .blog-btn {
+    font-family: 'Inter-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+    background: #4D6876;
+    border-radius: 5px;
+    padding: 14px 48px;
+    border: none;
+    margin-top: 95px;
+}
+
+.blog .container .arrow {
+    border: solid #4D6876;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 4px;
+    transform: rotate(-45deg);
+    margin: 1px 5px;
+}
+
+/* End of blog container */
+
+/* start of Ortaklarimiz contianer */
+
+.ortaklarımız {
+    background-color: #f5f5f5;
+    padding: 40px 0px;
+}
+
+.ortaklarımız .header-ortaklarımız {
+    font-family: 'Lato-Regular';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    color: #4D6876;
+    text-align: center;
+}
+
+.ortaklarımız .carousel-inner .carousel-container .solar-img {
+    width: 100%;
+    height: 100%;
+}
+
+.container-kalmasin {
+    padding: 40px 100px;
+}
+
+.container-kalmasin .header-kalmasin {
+    font-family: 'Lato-Regular';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    color: #4D6876;
+    text-align: center;
+}
+
+.container-kalmasin .subheader-kalmasin {
+    font-family: 'Smooch-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 49px;
+    color: #4D6876;
+    text-align: center;
+}
+
+.container-kalmasin .large-paragh {
+    position: relative;
+    width: 858px;
+    height: 682px;
+    padding: 90px 60px 75px 291px;
+    background: #EDEDED;
+    float: right;
+}
+
+.container-kalmasin .large-paragh .paragh-header-kalmasin {
+    font-family: 'Lato-Regular';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #595959;
+}
+
+.container-kalmasin .large-paragh .paragh-kalmasin {
+    font-family: 'Lato-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.container-kalmasin .yart10-img {
+    position: absolute;
+    z-index: 1;
+    top: 80px;
+}
+
+.container-kalmasin .large-paragh .card-footer {
+    background-color: #FFFFFF;
+    border-top: 0px solid #FFFFFF;
+    color: #4D6876;
+    float: right;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    font-family: 'Lato-Regular';
+    background: none;
+}
+
+.container-kalmasin .large-paragh .arrow {
+    border: solid #4D6876;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 4px;
+    transform: rotate(-45deg);
+    margin: 1px 5px;
+}
+
+/* End of Ortaklarimiz container */
+
+/* start of mobile contianer */
+.mobile {
+    background-image: url("../images/mob-section-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mobile .container .mobile1-col .mobile-heading {
+    font-family: 'Lato-Regular';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+
+.mobile .container .mobile1-col .mobile-paragh {
+    font-family: "Lato-Regular";
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.mobile .container .mobile2-col .mobile1-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.mobile .container .mobile2-col {
+    margin-top: 250px;
+}
+
+.mobile .container .mobile1-col {
+    margin-top: 100px;
+}
+
+/* End of mobile container */
+
+/* start of footer contianer */
+
+
+
+@media (max-width:1024px) {
+    .header-section {
+        background-image: url("../images/banner.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 1000px;
+    }
+
+    .navbar-section {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        color: #ffffff;
+    }
+
+    .banner-icon1 {
+        position: absolute;
+        right: 100px;
+    }
+
+    .banner .form {
+        background: linear-gradient(107.97deg, rgba(93, 135, 158, 0.4) 0.99%, rgba(255, 255, 255, 0.1) 101.23%);
+        box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.2), inset 5px 5px 4px #587C9B;
+        backdrop-filter: blur(10px);
+        border-radius: 30px;
+        padding: 0 1.3em;
+        font-size: 16px;
+        width: 450px;
+        height: 256px;
+        padding: 0px 10px;
+        position: absolute;
+        top: 390px;
+        right: 0px;
+    }
+
+    .banner .form .form-title {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 35px;
+        font-family: 'Gurajada-Regular';
+        color: #FFFFFF;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .banner .form .form-data .form-input {
+        width: 245px;
+        border: 1.5px solid #8c8c8c;
+        height: 0px;
+        background: #DCDCDC;
+        border-radius: 10px;
+        font-family: 'Gurajada-Regular';
+        font-size: 22px;
+        color: #A5A5A5;
+        padding: 33px;
+    }
+
+    .banner .form .form-data .form-control {
+        width: 20%;
+        display: inline-flex;
+        background: #DCDCDC;
+        border-radius: 10px;
+        font-family: 'Gurajada-Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 23px;
+        color: #494949;
+
+    }
+
+    .banner .form .form-data {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .banner .form .form-data .form-btn {
+        width: 84%;
+        border-radius: 25px;
+        color: #FFFFFF;
+        font-family: 'Gurajada-Regular';
+        font-size: 24px;
+        line-height: 62px;
+        background: #39596A;
+    }
+
+    .banner .main-heading .heading {
+        position: absolute;
+        left: 140px;
+        top: 700px;
+        color: #FFFFFF;
+        font-size: 39px;
+        font-family: 'Gurajada-Regular';
+    }
+
+    .banner .main-heading .sub-heading {
+        position: absolute;
+        left: 145px;
+        top: 770px;
+        color: #FFFFFF;
+        font-family: 'Smooch-Regular';
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 49px;
+    }
+
+    .banner .main-heading::after {
+        content: '';
+        border-bottom: solid 1px #FFFFFF;
+        position: absolute;
+        width: -webkit-fill-available;
+        height: 0px;
+        left: 580px;
+        top: 795px;
+    }
+
+    /* end of banner container */
+
+
+    /* start of allcard container */
+    .allcard .cards .rect-one {
+        background-color: #39596A;
+        height: 75px;
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        z-index: 1;
+        padding: 20px 0px;
+        text-align: center;
+        background-color: #4D6876;
+    }
+
+    .allcard .cards .Yart-sm-text {
+        color: #FFFFFF;
+        display: inline-flex;
+        font-size: 18px;
+        font-family: 'Lato-Regular';
+    }
+
+    .allcard .cards .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: calc(100% - 75px);
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background: rgba(23, 23, 23, 0.5);
+    }
+
+    .allcard .cards:hover .overlay {
+        opacity: 1;
+    }
+
+    .allcard .cards .overlay .text {
+        color: #FFFFFF;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 80%;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 36px;
+        font-family: 'Lato-Regular';
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .allcard .cards .rect-one .arrow {
+        width: 0;
+        height: 0;
+        position: absolute;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        transition: 0.5s;
+        border-top: 12px solid #FFFFFF;
+        top: 35px;
+        left: 75%;
+    }
+
+    .allcard .cards:hover .arrow {
+        transform: rotate(180deg);
+    }
+
+    /* end of allcard container */
+
+
+    /* start of teknende container */
+    .teknende {
+        background: #E5E5E5;
+    }
+
+    .teknende .container .carousel-indicators {
+        top: 460px;
+    }
+
+    .teknende .container .carousel-indicators li {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        border: 2px solid #383838;
+    }
+
+    .teknende .container .carousel-indicators li.active {
+        background-color: #383838;
+    }
+
+    .teknende .container .card-rw-img {
+        padding-top: 85px;
+        padding-bottom: 120px;
+    }
+
+    .teknende .container .card-rw-img .card4-img {
+        width: 100%;
+        border: 1px solid #000000;
+        box-shadow: inset 0px 4px 4px rgba(120, 120, 120, 0.25);
+        filter: drop-shadow(0px 4px 4px rgba(125, 125, 125, 0.25));
+        padding: 15px;
+    }
+
+    .teknende .container .card-rw-img .carousel-inner .header-card {
+        font-weight: 400;
+        font-size: 60px;
+        text-align: center;
+        font-family: 'Gurajada-Regular';
+    }
+
+    .teknende .container .card-rw-img .carousel-inner .carousel-item .sub-header.card {
+        font-family: 'Smooch-Regular';
+        font-weight: 400;
+        font-size: 60px;
+        text-align: center;
+        color: #28414F;
+        background: none;
+        border: none;
+        box-shadow: none;
+    }
+
+    .teknende .container .card-rw-img .carousel-inner .horizontal-rule {
+        border: 1px solid #000000;
+        margin-top: 8px;
+        margin-bottom: 60px;
+    }
+
+    .teknende .container .card-rw-img .carousel-inner .carousel-item .para-card {
+        text-align: center;
+        font-family: 'Lato-Regular';
+        font-size: 28px;
+        color: #000000;
+        font-weight: 400;
+        line-height: 36px;
+    }
+
+    .teknende .container .card-rw-img .carousel-inner .carousel-item .last-p-card {
+        text-align: center;
+        font-family: 'Lato-Regular';
+        font-size: 38px;
+        line-height: 48px;
+        color: #000000;
+    }
+
+    .teknende .container .card-rw-img .carousel-inner .carousel-item .last-p-card .bold-txt {
+        color: #3F3F3F;
+        font-weight: bold;
+    }
+
+    /* End of Teknende container */
+
+    /* start of nasil container */
+    .nasil {
+        background-image: url(../images/nasil-calisar-bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 50px 100px;
+    }
+
+    .nasil .header-nasil {
+        font-size: 50px;
+        padding-top: 28px;
+        line-height: 60px;
+        font-weight: 600;
+        font-family: 'Lato-Regular';
+        color: #28414F;
+        text-align: center;
+    }
+
+    .nasil .card .card-img {
+        width: 250px;
+        height: 200px;
+    }
+
+    .nasil .card.nasil-card {
+        border-radius: 10px;
+        width: 256px;
+        height: 523px;
+    }
+
+    .nasil .card .card-body {
+        padding: 0px;
+    }
+
+    .nasil .card .card-body .card-header {
+        color: #4D6876;
+        text-align: center;
+        font-family: 'Gurajada-Regular';
+        font-size: 49px;
+        border: none;
+        background: none;
+    }
+
+    .nasil .card .card-body .card-paragh {
+        font-family: 'Lato-Regular';
+        font-size: 22px;
+        color: #000000;
+        text-align: center;
+    }
+
+    .nasil .card .card-body .card-footer {
+        background-color: #FFFFFF;
+        border-top: 0px solid #FFFFFF;
+        color: #4D6876;
+        float: right;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 27px;
+        font-family: 'Lato-Regular';
+    }
+
+    .nasil .card .card-body .arrow {
+        border: solid #4D6876;
+        border-width: 0 2px 2px 0;
+        display: inline-block;
+        padding: 4px;
+        transform: rotate(-45deg);
+        margin: 1px 5px;
+    }
+
+    /* End of nasil container */
+
+    /* start of Hizmet container */
+    .hizmet {
+        background-color: #E5E5E5;
+        padding: 50px;
+    }
+
+    .hizmet .container .header-hizmet {
+        font-family: 'Lato-Regular';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 60px;
+        color: #28414F;
+        text-align: center;
+    }
+
+    .hizmet .container .card {
+        border-radius: 0px;
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    }
+
+    .hizmet .container .card .card-content {
+        padding: 10px 30px;
+        line-height: 40px;
+    }
+
+    .hizmet .container .card .card-content .card-title {
+        font-family: 'Inter-Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #6C6C6C;
+    }
+
+    .hizmet .container .card .card-body .card-child-box {
+        background-color: #4D6876;
+        position: absolute;
+        padding: 10px 30px;
+        font-size: 15px;
+        font-family: 'Inter-Regular';
+        color: #FFFFFF;
+        bottom: 106px;
+        right: 0;
+    }
+
+    .hizmet .container .card .card-body .card-child-box-img {
+        width: 100%;
+    }
+
+    .hizmet .container .card .card-content .card-sub-title {
+        font-family: 'Inter-Regular';
+        font-style: normal;
+        font-size: 24px;
+        color: #6C6C6C
+    }
+
+    .hizmet .container .hizmet-btn {
+        font-family: 'Inter-Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 30px;
+        color: #FFFFFF;
+        background: #4D6876;
+        border-radius: 5px;
+        border: none;
+        padding: 14px 47px;
+    }
+
+    /* End of Hizmet container */
+    .mrinalar {
+        background: url(../images/marinalar-bg1.png), #E5E5E5;
+        background-position: top center;
+        background-size: 100% auto, cover;
+        background-repeat: no-repeat;
+        padding: 50px 100px;
+    }
+
+    .mrinalar .container .carousel-indicators {
+        top: 480px;
+    }
+
+    .mrinalar .container .carousel-indicators li {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        border: 2px solid #383838;
+        bottom: 89px;
+        padding: 5px;
+    }
+
+    .mrinalar .container .carousel-indicators li.active {
+        background-color: #383838;
+
+    }
+
+    .mrinalar .container .header-mrinalar {
+        color: #F4F4F4;
+        font-size: 50px;
+        font-weight: 600;
+        line-height: 60px;
+        text-align: center;
+        font-family: 'Lato-Regular';
+    }
+
+    .mrinalar .container .subheader-mrinalar {
+        font-family: 'Smooch-Regular';
+        font-size: 35px;
+        font-style: normal;
+        line-height: 49px;
+        font-weight: 400;
+        color: #F4F4F4;
+        text-align: center;
+    }
+
+    .mrinalar .container .carousel-inner .carousel-item .parent-mrinalar {
+        position: relative;
+    }
+
+    .mrinalar .container .carousel-inner .carousel-item .parent-mrinalar .card .card-mrinalar-header {
+        padding: 0px 30px 0px 10px;
+        font-size: 34px;
+        line-height: 42px;
+        font-weight: 600;
+        font-family: 'Lato-Regular';
+    }
+
+    .mrinalar .container .carousel-inner .carousel-item .parent-mrinalar .card.mrinalar-card {
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+        width: 80%;
+        position: absolute;
+        bottom: -50px;
+        right: 0;
+        border-radius: 0px;
+    }
+
+    .mrinalar .container .carousel-inner .carousel-item .parent-mrinalar .card .card-footer {
+        background-color: #FFFFFF;
+        border-top: 0px solid #FFFFFF;
+        color: #4D6876;
+        float: right;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 27px;
+        font-family: 'Lato-Regular';
+    }
+
+    .mrinalar .container .carousel-inner .carousel-item .parent-mrinalar .card .arrow {
+        border: solid #4D6876;
+        border-width: 0 2px 2px 0;
+        display: inline-block;
+        padding: 4px;
+        transform: rotate(-45deg);
+        margin: 1px 5px;
+    }
+
+    /* End of mrinalar page */
+    /* start of Blog container */
+    .blog {
+        background-color: #d7d4d4;
+        background-size: 100% auto, cover;
+        padding: 40px 100px;
+    }
+
+    .blog .container .header-blog {
+        font-family: 'Lato-Regular';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 60px;
+        color: #4D6876;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .blog .container .parent-blog {
+        position: relative;
+    }
+
+    .blog .container .parent-blog .card .card-blog-header {
+        font-family: 'Lato-Regular';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 32px;
+        color: #000000;
+        padding-bottom: 22px;
+    }
+
+    .blog .container .parent-blog .card .card-blog-paragh-section {
+        font-family: 'Lato-Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 23x;
+        color: #595959;
+    }
+
+    .blog .container .parent-blog .card {
+        width: 301px;
+        height: 491px;
+        position: absolute;
+        top: 46px;
+        left: 155px;
+        border-radius: 0px;
+        box-shadow: 0px 4px 4px #01a6fc;
+    }
+
+    .blog .container .parent-blog .child-card-img {
+        width: 319px;
+        height: 465px;
+    }
+
+    .blog .container .parent-blog .card .card-footer {
+        background-color: #FFFFFF;
+        border-top: 0px solid #FFFFFF;
+        color: #4D6876;
+        float: right;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 4px;
+        font-family: 'Lato-Regular'
+    }
+
+    .blog .container .blog-btn {
+        font-family: 'Inter-Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 30px;
+        color: #FFFFFF;
+        background: #4D6876;
+        border-radius: 5px;
+        padding: 14px 48px;
+        border: none;
+        margin-top: 95px;
+    }
+
+    .blog .container .arrow {
+        border: solid #4D6876;
+        border-width: 0 2px 2px 0;
+        display: inline-block;
+        padding: 4px;
+        transform: rotate(-45deg);
+        margin: 1px 5px;
+    }
+
+    /* End of blog container */
+
+    /* start of Ortaklarimiz contianer */
+
+    .ortaklarımız {
+        background-color: #f5f5f5;
+        padding: 40px 0px;
+    }
+
+    .ortaklarımız .header-ortaklarımız {
+        font-family: 'Lato-Regular';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 60px;
+        color: #4D6876;
+        text-align: center;
+    }
+
+    .ortaklarımız .carousel-inner .carousel-container .solar-img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .container-kalmasin {
+        padding: 40px 100px;
+    }
+
+    .container-kalmasin .header-kalmasin {
+        font-family: 'Lato-Regular';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 60px;
+        color: #4D6876;
+        text-align: center;
+    }
+
+    .container-kalmasin .subheader-kalmasin {
+        font-family: 'Smooch-Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 49px;
+        color: #4D6876;
+        text-align: center;
+    }
+
+    .container-kalmasin .large-paragh {
+        position: relative;
+        width: 608px;
+        height: 775px;
+        padding: 90px 60px 75px 291px;
+        background: #EDEDED;
+        float: right;
+    }
+
+    .container-kalmasin .large-paragh .paragh-header-kalmasin {
+        font-family: 'Lato-Regular';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 19px;
+        line-height: 28px;
+        color: #595959;
+    }
+
+    .container-kalmasin .large-paragh .paragh-kalmasin {
+        font-family: 'Lato-Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        color: #595959
+    }
+
+    .container-kalmasin .yart10-img {
+        position: absolute;
+        z-index: 1;
+        top: 80px;
+        width: 500px
+    }
+
+    .container-kalmasin .large-paragh .card-footer {
+        background-color: #FFFFFF;
+        border-top: 0px solid #FFFFFF;
+        color: #4D6876;
+        float: right;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 27px;
+        font-family: 'Lato-Regular';
+        background: none;
+    }
+
+    .container-kalmasin .large-paragh .arrow {
+        border: solid #4D6876;
+        border-width: 0 2px 2px 0;
+        display: inline-block;
+        padding: 4px;
+        transform: rotate(-45deg);
+        margin: 1px 5px;
+    }
+
+    /* End of Ortaklarimiz container */
+
+    /* start of mobile contianer */
+    .mobile {
+        background-image: url("../images/mob-section-bg.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .mobile .container .mobile1-col .mobile-heading {
+        font-family: 'Lato-Regular';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 60px;
+        color: #FFFFFF;
+    }
+
+    .mobile .container .mobile1-col .mobile-paragh {
+        font-family: "Lato-Regular";
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 36px;
+        color: #FFFFFF;
+    }
+
+    .mobile .container .mobile2-col .mobile1-img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .mobile .container .mobile2-col {
+        margin-top: 250px;
+    }
+
+    .mobile .container .mobile1-col {
+        margin-top: 100px;
+    }
+
+}
+
+@media (max-width:768px) {
+    .header-section {
+        background-image: url("../images/banner.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 1000px;
+    }
+
+    .navbar-section {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        color: #ffffff;
+    }
+
+    .banner-icon1 {
+        position: absolute;
+        right: 100px;
+    }
+
+    .banner .form {
+        background: linear-gradient(107.97deg, rgba(93, 135, 158, 0.4) 0.99%, rgba(255, 255, 255, 0.1) 101.23%);
+        box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.2), inset 5px 5px 4px #587C9B;
+        backdrop-filter: blur(10px);
+        border-radius: 30px;
+        padding: 0 1.3em;
+        font-size: 16px;
+        width: 450px;
+        height: 256px;
+        padding: 0px 10px;
+        position: absolute;
+        top: 390px;
+        right: 0px;
+    }
+
+    .banner .form .form-title {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 35px;
+        font-family: 'Gurajada-Regular';
+        color: #FFFFFF;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .banner .form .form-data .form-input {
+        width: 245px;
+        border: 1.5px solid #8c8c8c;
+        height: 0px;
+        background: #DCDCDC;
+        border-radius: 10px;
+        font-family: 'Gurajada-Regular';
+        font-size: 22px;
+        color: #A5A5A5;
+        padding: 33px;
+    }
+
+    .banner .form .form-data .form-control {
+        width: 20%;
+        display: inline-flex;
+        background: #DCDCDC;
+        border-radius: 10px;
+        font-family: 'Gurajada-Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 23px;
+        color: #494949;
+
+    }
+
+    .banner .form .form-data {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .banner .form .form-data .form-btn {
+        width: 84%;
+        border-radius: 25px;
+        color: #FFFFFF;
+        font-family: 'Gurajada-Regular';
+        font-size: 24px;
+        line-height: 62px;
+        background: #39596A;
+    }
+
+    .banner .main-heading .heading {
+        position: absolute;
+        left: 140px;
+        top: 700px;
+        color: #FFFFFF;
+        font-size: 30px;
+        font-family: 'Gurajada-Regular';
+    }
+
+    .banner .main-heading .sub-heading {
+        position: absolute;
+        left: 145px;
+        top: 770px;
+        color: #FFFFFF;
+        font-family: 'Smooch-Regular';
+        font-size: 27px;
+    }
+
+    .banner .main-heading::after {
+        content: '';
+        border-bottom: solid 1px #FFFFFF;
+        position: absolute;
+        width: -webkit-fill-available;
+        height: 0px;
+        left: 530px;
+        top: 795px;
+    }
+
+    /* end of banner container */
+
+
+    /* start of allcard container */
+    .allcard .cards .rect-one {
+        background-color: #39596A;
+        height: 75px;
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        z-index: 1;
+        padding: 20px 0px;
+        text-align: center;
+        background-color: #4D6876;
+    }
+
+    .allcard .cards .Yart-sm-text {
+        color: #FFFFFF;
+        display: inline-flex;
+        font-size: 18px;
+        font-family: 'Lato-Regular';
+    }
+
+    .allcard .cards .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: calc(100% - 75px);
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background: rgba(23, 23, 23, 0.5);
+    }
+
+    .allcard .cards:hover .overlay {
+        opacity: 1;
+    }
+
+    .allcard .cards .overlay .text {
+        color: #FFFFFF;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 80%;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 36px;
+        font-family: 'Lato-Regular';
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .allcard .cards .rect-one .arrow {
+        width: 0;
+        height: 0;
+        position: absolute;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        transition: 0.5s;
+        border-top: 12px solid #FFFFFF;
+        top: 35px;
+        left: 89%;
+    }
+
+    .allcard .cards:hover .arrow {
+        transform: rotate(180deg);
+    }
+
+    /* end of allcard container */
+
+
+    /* start of teknende container */
+    .teknende {
+        background: #E5E5E5;
+    }
+
+    .teknende .container .carousel-indicators {
+        top: 460px;
+    }
+
+    .teknende .container .carousel-indicators li {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        border: 2px solid #383838;
+    }
+
+    .teknende .container .carousel-indicators li.active {
+        background-color: #383838;
+    }
+
+    .teknende .container .card-rw-img {
+        padding-top: 85px;
+        padding-bottom: 120px;
+    }
+
+    .teknende .container .card-rw-img .card4-img {
+        width: 100%;
+        border: 1px solid #000000;
+        box-shadow: inset 0px 4px 4px rgba(120, 120, 120, 0.25);
+        filter: drop-shadow(0px 4px 4px rgba(125, 125, 125, 0.25));
+        padding: 15px;
+    }
+
+    .teknende .container .card-rw-img .carousel-inner .header-card {
+        font-weight: 400;
+        font-size: 56px;
+        text-align: center;
+        font-family: 'Gurajada-Regular';
+    }
+
+    .teknende .container .card-rw-img .carousel-inner .carousel-item .sub-header.card {
+        font-family: 'Smooch-Regular';
+        font-weight: 400;
+        font-size: 55px;
+        text-align: center;
+        color: #28414F;
+        background: none;
+        border: none;
+        box-shadow: none;
+    }
+
+    .teknende .container .card-rw-img .carousel-inner .horizontal-rule {
+        border: 1px solid #000000;
+        margin-top: 8px;
+        margin-bottom: 60px;
+    }
+
+    .teknende .container .card-rw-img .carousel-inner .carousel-item .para-card {
+        text-align: center;
+        font-family: 'Lato-Regular';
+        font-size: 25px;
+        color: #000000;
+        font-weight: 400;
+        line-height: 36px;
+    }
+
+    .teknende .container .card-rw-img .carousel-inner .carousel-item .last-p-card {
+        text-align: center;
+        font-family: 'Lato-Regular';
+        font-size: 30px;
+        line-height: 48px;
+        color: #000000;
+    }
+
+    .teknende .container .card-rw-img .carousel-inner .carousel-item .last-p-card .bold-txt {
+        color: #3F3F3F;
+        font-weight: bold;
+    }
+
+    /* End of Teknende container */
+
+    /* start of nasil container */
+    .nasil {
+        background-image: url(../images/nasil-calisar-bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 50px 100px;
+    }
+
+    .nasil .header-nasil {
+        font-size: 50px;
+        padding-top: 28px;
+        line-height: 60px;
+        font-weight: 600;
+        font-family: 'Lato-Regular';
+        color: #28414F;
+        text-align: center;
+    }
+
+    .nasil .card .card-img {
+        width: 212px;
+        height: 200px;
+    }
+
+    .nasil .card.nasil-card {
+        border-radius: 10px;
+        width: 194px;
+        height: 500px;
+    }
+
+    .nasil .card .card-body {
+        padding: 0px;
+    }
+
+    .nasil .card .card-body .card-header {
+        color: #4D6876;
+        text-align: center;
+        font-family: 'Gurajada-Regular';
+        font-size: 36px;
+        border: none;
+        background: none;
+    }
+
+    .nasil .card .card-body .card-paragh {
+        font-family: 'Lato-Regular';
+        font-size: 22px;
+        color: #000000;
+        text-align: center;
+    }
+
+    .nasil .card .card-body .card-footer {
+        background-color: #FFFFFF;
+        border-top: 0px solid #FFFFFF;
+        color: #4D6876;
+        float: right;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 27px;
+        font-family: 'Lato-Regular';
+    }
+
+    .nasil .card .card-body .arrow {
+        border: solid #4D6876;
+        border-width: 0 2px 2px 0;
+        display: inline-block;
+        padding: 4px;
+        transform: rotate(-45deg);
+        margin: 1px 5px;
+    }
+
+    /* End of nasil container */
+
+    /* start of Hizmet container */
+    .hizmet {
+        background-color: #E5E5E5;
+        padding: 50px;
+    }
+
+    .hizmet .container .header-hizmet {
+        font-family: 'Lato-Regular';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 60px;
+        color: #28414F;
+        text-align: center;
+    }
+
+    .hizmet .container .card {
+        border-radius: 0px;
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    }
+
+    .hizmet .container .card .card-content {
+        padding: 10px 30px;
+        line-height: 40px;
+    }
+
+    .hizmet .container .card .card-content .card-title {
+        font-family: 'Inter-Regular';
+        font-size: 12px;
+        color: #6C6C6C;
+    }
+
+    .hizmet .container .card .card-body .card-child-box {
+        background-color: #4D6876;
+        position: absolute;
+        padding: 2px 22px;
+        font-size: 10px;
+        font-family: 'Inter-Regular';
+        color: #FFFFFF;
+        bottom: 106px;
+        right: 0;
+    }
+
+    .hizmet .container .card .card-body .card-child-box-img {
+        width: 100%;
+    }
+
+    .hizmet .container .card .card-content .card-sub-title {
+        font-family: 'Inter-Regular';
+        font-style: normal;
+        font-size: 15px;
+        color: #6C6C6C
+    }
+
+    .hizmet .container .hizmet-btn {
+        font-family: 'Inter-Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 30px;
+        color: #FFFFFF;
+        background: #4D6876;
+        border-radius: 5px;
+        border: none;
+        padding: 14px 47px;
+    }
+
+    /* End of Hizmet container */
+    .mrinalar {
+        background: url(../images/marinalar-bg1.png), #E5E5E5;
+        background-position: top center;
+        background-size: 100% auto, cover;
+        background-repeat: no-repeat;
+        padding: 50px 100px;
+    }
+
+    .mrinalar .container .carousel-indicators {
+        top: 480px;
+    }
+
+    .mrinalar .container .carousel-indicators li {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        border: 2px solid #383838;
+        bottom: 177px;
+        padding: 5px;
+    }
+
+    .mrinalar .container .carousel-indicators li.active {
+        background-color: #383838;
+
+    }
+
+    .mrinalar .container .header-mrinalar {
+        color: #F4F4F4;
+        font-size: 50px;
+        font-weight: 600;
+        line-height: 60px;
+        text-align: center;
+        font-family: 'Lato-Regular';
+    }
+
+    .mrinalar .container .subheader-mrinalar {
+        font-family: 'Smooch-Regular';
+        font-size: 35px;
+        font-style: normal;
+        line-height: 49px;
+        font-weight: 400;
+        color: #F4F4F4;
+        text-align: center;
+    }
+
+    .mrinalar .container .carousel-inner .carousel-item .parent-mrinalar {
+        position: relative;
+    }
+
+    .mrinalar .container .carousel-inner .carousel-item .parent-mrinalar .card .card-mrinalar-header {
+        padding: 0px 30px 0px 10px;
+        font-size: 11px;
+        line-height: 13px;
+        font-weight: 600;
+        font-family: 'Lato-Regular';
+    }
+
+    .mrinalar .container .carousel-inner .carousel-item .parent-mrinalar .card.mrinalar-card {
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+        width: 80%;
+        position: absolute;
+        bottom: -50px;
+        right: 0;
+        border-radius: 0px;
+    }
+
+    .mrinalar .container .carousel-inner .carousel-item .parent-mrinalar .card .card-footer {
+        background-color: #FFFFFF;
+        border-top: 0px solid #FFFFFF;
+        color: #4D6876;
+        float: right;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 22px;
+        font-family: 'Lato-Regular';
+    }
+
+    .mrinalar .container .carousel-inner .carousel-item .parent-mrinalar .card .arrow {
+        border: solid #4D6876;
+        border-width: 0 2px 2px 0;
+        display: inline-block;
+        padding: 4px;
+        transform: rotate(-45deg);
+        margin: 1px 5px;
+    }
+
+    /* End of mrinalar page */
+    /* start of Blog container */
+    .blog {
+        background-color: #d7d4d4;
+        background-size: 100% auto, cover;
+        padding: 40px 100px;
+    }
+
+    .blog .container .header-blog {
+        font-family: 'Lato-Regular';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 60px;
+        color: #4D6876;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .blog .container .parent-blog {
+        position: relative;
+    }
+
+    .blog .container .parent-blog .card .card-blog-header {
+        font-family: 'Lato-Regular';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 27px;
+        line-height: 32px;
+        color: #000000;
+        padding-bottom: 22px;
+    }
+
+    .blog .container .parent-blog .card .card-blog-paragh-section {
+        font-family: 'Lato-Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 26px;
+        color: #595959;
+    }
+
+    .blog .container .parent-blog .card {
+        width: 346px;
+        height: 464px;
+        position: absolute;
+        top: 46px;
+        left: 155px;
+        border-radius: 0px;
+        box-shadow: 0px 4px 4px #01a6fc;
+    }
+
+    .blog .container .parent-blog .child-card-img {
+        width: 336px;
+        height: 458px;
+    }
+
+    .blog .container .parent-blog .card .card-footer {
+        background-color: #FFFFFF;
+        border-top: 0px solid #FFFFFF;
+        color: #4D6876;
+        float: right;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 27px;
+        font-family: 'Lato-Regular';
+    }
+
+    .blog .container .blog-btn {
+        font-family: 'Inter-Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 30px;
+        color: #FFFFFF;
+        background: #4D6876;
+        border-radius: 5px;
+        padding: 14px 48px;
+        border: none;
+        margin-top: 95px;
+    }
+
+    .blog .container .arrow {
+        border: solid #4D6876;
+        border-width: 0 2px 2px 0;
+        display: inline-block;
+        padding: 4px;
+        transform: rotate(-45deg);
+        margin: 1px 5px;
+    }
+
+    /* End of blog container */
+
+    /* start of Ortaklarimiz contianer */
+
+    .ortaklarımız {
+        background-color: #f5f5f5;
+        padding: 40px 0px;
+    }
+
+    .ortaklarımız .header-ortaklarımız {
+        font-family: 'Lato-Regular';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 60px;
+        color: #4D6876;
+        text-align: center;
+    }
+
+    .ortaklarımız .carousel-inner .carousel-container .solar-img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .container-kalmasin {
+        padding: 40px 100px;
+    }
+
+    .container-kalmasin .header-kalmasin {
+        font-family: 'Lato-Regular';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 60px;
+        color: #4D6876;
+        text-align: center;
+    }
+
+    .container-kalmasin .subheader-kalmasin {
+        font-family: 'Smooch-Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 49px;
+        color: #4D6876;
+        text-align: center;
+    }
+
+    .container-kalmasin .large-paragh {
+
+        position: relative;
+        width: 522px;
+        height: 715px;
+        padding: 90px 60px 75px 291px;
+        background: #EDEDED;
+        float: right;
+    }
+
+    .container-kalmasin .large-paragh .paragh-header-kalmasin {
+        font-family: 'Lato-Regular';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 15px;
+        color: #595959;
+    }
+
+    .container-kalmasin .large-paragh .paragh-kalmasin {
+        font-family: 'Lato-Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 15px;
+        color: #595959;
+    }
+
+    .container-kalmasin .yart10-img {
+        position: absolute;
+        z-index: 1;
+        top: 80px;
+        width: 388px
+    }
+
+    .container-kalmasin .large-paragh .card-footer {
+        background-color: #FFFFFF;
+        border-top: 0px solid #FFFFFF;
+        color: #4D6876;
+        float: right;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 27px;
+        font-family: 'Lato-Regular';
+        background: none;
+    }
+
+    .container-kalmasin .large-paragh .arrow {
+        border: solid #4D6876;
+        border-width: 0 2px 2px 0;
+        display: inline-block;
+        padding: 4px;
+        transform: rotate(-45deg);
+        margin: 1px 5px;
+    }
+
+    /* End of Ortaklarimiz container */
+
+    /* start of mobile contianer */
+    .mobile {
+        background-image: url("../images/mob-section-bg.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .mobile .container .mobile1-col .mobile-heading {
+        font-family: 'Lato-Regular';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 60px;
+        color: #FFFFFF;
+    }
+
+    .mobile .container .mobile1-col .mobile-paragh {
+        font-family: "Lato-Regular";
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 36px;
+        color: #FFFFFF;
+    }
+
+    .mobile .container .mobile2-col .mobile1-img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .mobile .container .mobile2-col {
+        margin-top: 250px;
+    }
+
+    .mobile .container .mobile1-col {
+        margin-top: 100px;
+    }
+
+}
+
+@media (max-width:576px) {
+    .header-section {
+        background-image: url("../images/banner.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 1000px;
+    }
+
+    .navbar-section {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        color: #ffffff;
+    }
+
+    .banner-icon1 {
+        position: absolute;
+        right: 30px;
+    }
+
+    .banner .form {
+        background: linear-gradient(107.97deg, rgba(93, 135, 158, 0.4) 0.99%, rgba(255, 255, 255, 0.1) 101.23%);
+        box-shadow: 0px 4px 24px -1px rgb(0 0 0 / 20%), inset 5px 5px 4px #587c9b;
+        backdrop-filter: blur(10px);
+        border-radius: 30px;
+        padding: 0 1.3em;
+        width: 405px;
+        height: 243px;
+        padding: 0px 10px;
+        position: absolute;
+        top: 390px;
+        right: 0px;
+    }
+
+    .banner .form .form-title {
+        font-style: normal;
+        font-size: 31px;
+        font-family: 'Gurajada-Regular';
+        color: #FFFFFF;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .banner .form .form-data .form-input {
+        width: 236px;
+        border: 1.5px solid #8c8c8c;
+        height: 0px;
+        background: #DCDCDC;
+        border-radius: 10px;
+        font-family: 'Gurajada-Regular';
+        font-size: 22px;
+        color: #A5A5A5;
+        padding: 22px;
+    }
+
+    .banner .form .form-data .form-control {
+        width: 23%;
+        display: inline-flex;
+        background: #DCDCDC;
+        border-radius: 10px;
+        font-family: 'Gurajada-Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        color: #494949;
+
+    }
+
+    .banner .form .form-data {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .banner .form .form-data .form-btn {
+        width: 77%;
+        border-radius: 40px;
+        color: #FFFFFF;
+        font-family: 'Gurajada-Regular';
+        font-size: 21px;
+        background: #39596A;
+    }
+
+    .banner .main-heading .heading {
+        position: absolute;
+        left: 34px;
+        top: 700px;
+        color: #FFFFFF;
+        font-size: 26px;
+        font-family: 'Gurajada-Regular';
+    }
+
+    .banner .main-heading .sub-heading {
+        position: absolute;
+        left: 145px;
+        top: 770px;
+        color: #FFFFFF;
+        font-family: 'Smooch-Regular';
+        font-size: 27px;
+    }
+
+    .banner .main-heading::after {
+        content: '';
+        border-bottom: solid 1px #FFFFFF;
+        position: absolute;
+        width: -webkit-fill-available;
+        height: 0px;
+        left: 338px;
+        top: 795px;
+    }
+
+    /* end of banner container */
+
+
+    /* start of allcard container */
+    .allcard .cards .rect-one {
+        background-color: #39596A;
+        height: 75px;
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        z-index: 1;
+        padding: 20px 0px;
+        text-align: center;
+        background-color: #4D6876;
+    }
+
+    .allcard .cards .Yart-sm-text {
+        color: #FFFFFF;
+        display: inline-flex;
+        font-size: 18px;
+        font-family: 'Lato-Regular';
+    }
+
+    .allcard .cards .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: calc(100% - 75px);
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background: rgba(23, 23, 23, 0.5);
+    }
+
+    .allcard .cards:hover .overlay {
+        opacity: 1;
+    }
+
+    .allcard .cards .overlay .text {
+        color: #FFFFFF;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 80%;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 36px;
+        font-family: 'Lato-Regular';
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .allcard .cards .rect-one .arrow {
+        width: 0;
+        height: 0;
+        position: absolute;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        transition: 0.5s;
+        border-top: 12px solid #FFFFFF;
+        top: 35px;
+        left: 89%;
+    }
+
+    .allcard .cards:hover .arrow {
+        transform: rotate(180deg);
+    }
+
+    /* end of allcard container */
+
+
+    /* start of teknende container */
+    .teknende {
+        background: #E5E5E5;
+    }
+
+    .teknende .container .carousel-indicators {
+        top: 460px;
+    }
+
+    .teknende .container .carousel-indicators li {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        border: 2px solid #383838;
+    }
+
+    .teknende .container .carousel-indicators li.active {
+        background-color: #383838;
+    }
+
+    .teknende .container .card-rw-img {
+        padding-top: 85px;
+        padding-bottom: 120px;
+    }
+
+    .teknende .container .card-rw-img .card4-img {
+        width: 100%;
+        border: 1px solid #000000;
+        box-shadow: inset 0px 4px 4px rgba(120, 120, 120, 0.25);
+        filter: drop-shadow(0px 4px 4px rgba(125, 125, 125, 0.25));
+        padding: 15px;
+    }
+
+    .teknende .container .card-rw-img .carousel-inner .header-card {
+        font-weight: 400;
+        font-size: 56px;
+        text-align: center;
+        font-family: 'Gurajada-Regular';
+    }
+
+    .teknende .container .card-rw-img .carousel-inner .carousel-item .sub-header.card {
+        font-family: 'Smooch-Regular';
+        font-weight: 400;
+        font-size: 55px;
+        text-align: center;
+        color: #28414F;
+        background: none;
+        border: none;
+        box-shadow: none;
+    }
+
+    .teknende .container .card-rw-img .carousel-inner .horizontal-rule {
+        border: 1px solid #000000;
+        margin-top: 8px;
+        margin-bottom: 60px;
+    }
+
+    .teknende .container .card-rw-img .carousel-inner .carousel-item .para-card {
+        text-align: center;
+        font-family: 'Lato-Regular';
+        font-size: 25px;
+        color: #000000;
+        font-weight: 400;
+        line-height: 36px;
+    }
+
+    .teknende .container .card-rw-img .carousel-inner .carousel-item .last-p-card {
+        text-align: center;
+        font-family: 'Lato-Regular';
+        font-size: 30px;
+        line-height: 48px;
+        color: #000000;
+    }
+
+    .teknende .container .card-rw-img .carousel-inner .carousel-item .last-p-card .bold-txt {
+        color: #3F3F3F;
+        font-weight: bold;
+    }
+
+    /* End of Teknende container */
+
+    /* start of nasil container */
+    .nasil {
+        background-image: url(../images/nasil-calisar-bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 50px 100px;
+    }
+
+    .nasil .header-nasil {
+        font-size: 50px;
+        padding-top: 28px;
+        line-height: 60px;
+        font-weight: 600;
+        font-family: 'Lato-Regular';
+        color: #28414F;
+        text-align: center;
+    }
+
+    .nasil .card .card-img {
+        width: 212px;
+        height: 200px;
+    }
+
+    .nasil .card.nasil-card {
+        border-radius: 10px;
+        width: 287px;
+        height: 500px;
+    }
+
+    .nasil .card .card-body {
+        padding: 0px;
+    }
+
+    .nasil .card .card-body .card-header {
+        color: #4D6876;
+        text-align: center;
+        font-family: 'Gurajada-Regular';
+        font-size: 36px;
+        border: none;
+        background: none;
+    }
+
+    .nasil .card .card-body .card-paragh {
+        font-family: 'Lato-Regular';
+        font-size: 22px;
+        color: #000000;
+        text-align: center;
+    }
+
+    .nasil .card .card-body .card-footer {
+        background-color: #FFFFFF;
+        border-top: 0px solid #FFFFFF;
+        color: #4D6876;
+        float: right;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 27px;
+        font-family: 'Lato-Regular';
+    }
+
+    .nasil .card .card-body .arrow {
+        border: solid #4D6876;
+        border-width: 0 2px 2px 0;
+        display: inline-block;
+        padding: 4px;
+        transform: rotate(-45deg);
+        margin: 1px 5px;
+    }
+
+    /* End of nasil container */
+
+    /* start of Hizmet container */
+    .hizmet {
+        background-color: #E5E5E5;
+        padding: 50px;
+    }
+
+    .hizmet .container .header-hizmet {
+        font-family: 'Lato-Regular';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 60px;
+        color: #28414F;
+        text-align: center;
+    }
+
+    .hizmet .container .card {
+        border-radius: 0px;
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+    }
+
+    .hizmet .container .card .card-content {
+        padding: 10px 30px;
+        line-height: 40px;
+    }
+
+    .hizmet .container .card .card-content .card-title {
+        font-family: 'Inter-Regular';
+        font-size: 18px;
+        color: #6C6C6C;
+    }
+
+    .hizmet .container .card .card-body .card-child-box {
+        background-color: #4D6876;
+        position: absolute;
+        padding: 6px 30px;
+        font-size: 14px;
+        font-family: 'Inter-Regular';
+        color: #FFFFFF;
+        bottom: 72px;
+        right: 0;
+    }
+
+    .hizmet .container .card .card-body .card-child-box-img {
+        width: 100%;
+    }
+
+    .hizmet .container .card .card-content .card-sub-title {
+        font-family: 'Inter-Regular';
+        font-style: normal;
+        font-size: 18px;
+        color: #6C6C6C
+    }
+
+    .hizmet .container .hizmet-btn {
+        font-family: 'Inter-Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 30px;
+        color: #FFFFFF;
+        background: #4D6876;
+        border-radius: 5px;
+        border: none;
+        padding: 14px 47px;
+    }
+
+    /* End of Hizmet container */
+    .mrinalar {
+        background: url(../images/marinalar-bg1.png), #E5E5E5;
+        background-position: top center;
+        background-size: 100% auto, cover;
+        background-repeat: no-repeat;
+        padding: 50px 100px;
+    }
+
+    .mrinalar .container .carousel-indicators {
+        top: 480px;
+    }
+
+    .mrinalar .container .carousel-indicators li {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        border: 2px solid #383838;
+        bottom: 89px;
+        padding: 5px;
+    }
+
+    .mrinalar .container .carousel-indicators li.active {
+        background-color: #383838;
+
+    }
+
+    .mrinalar .container .header-mrinalar {
+        color: #F4F4F4;
+        font-size: 50px;
+        font-weight: 600;
+        line-height: 60px;
+        text-align: center;
+        font-family: 'Lato-Regular';
+    }
+
+    .mrinalar .container .subheader-mrinalar {
+        font-family: 'Smooch-Regular';
+        font-size: 35px;
+        font-style: normal;
+        line-height: 49px;
+        font-weight: 400;
+        color: #F4F4F4;
+        text-align: center;
+    }
+
+    .mrinalar .container .carousel-inner .carousel-item .parent-mrinalar {
+        position: relative;
+    }
+
+    .mrinalar .container .carousel-inner .carousel-item .parent-mrinalar .card .card-mrinalar-header {
+        padding: 0px 30px 0px 10px;
+        font-size: 34px;
+        line-height: 42px;
+        font-weight: 600;
+        font-family: 'Lato-Regular';
+    }
+
+    .mrinalar .container .carousel-inner .carousel-item .parent-mrinalar .card.mrinalar-card {
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+        width: 80%;
+        position: absolute;
+        bottom: -50px;
+        right: 0;
+        border-radius: 0px;
+    }
+
+    .mrinalar .container .carousel-inner .carousel-item .parent-mrinalar .card .card-footer {
+        background-color: #FFFFFF;
+        border-top: 0px solid #FFFFFF;
+        color: #4D6876;
+        float: right;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 27px;
+        font-family: 'Lato-Regular';
+    }
+
+    .mrinalar .container .carousel-inner .carousel-item .parent-mrinalar .card .arrow {
+        border: solid #4D6876;
+        border-width: 0 2px 2px 0;
+        display: inline-block;
+        padding: 4px;
+        transform: rotate(-45deg);
+        margin: 1px 5px;
+    }
+
+    /* End of mrinalar page */
+    /* start of Blog container */
+    .blog {
+        background-color: #d7d4d4;
+        background-size: 100% auto, cover;
+        padding: 40px 100px;
+    }
+
+    .blog .container .header-blog {
+        font-family: 'Lato-Regular';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 60px;
+        color: #4D6876;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .blog .container .parent-blog {
+        position: relative;
+    }
+
+    .blog .container .parent-blog .card .card-blog-header {
+        font-family: 'Lato-Regular';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 27px;
+        line-height: 32px;
+        color: #000000;
+        padding-bottom: 22px;
+    }
+
+    .blog .container .parent-blog .card .card-blog-paragh-section {
+        font-family: 'Lato-Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 26px;
+        color: #595959;
+    }
+
+    .blog .container .parent-blog .card {
+        width: 346px;
+        height: 464px;
+        position: absolute;
+        top: 46px;
+        left: 155px;
+        border-radius: 0px;
+        box-shadow: 0px 4px 4px #01a6fc;
+    }
+
+    .blog .container .parent-blog .child-card-img {
+        width: 336px;
+        height: 458px;
+    }
+
+    .blog .container .parent-blog .card .card-footer {
+        background-color: #FFFFFF;
+        border-top: 0px solid #FFFFFF;
+        color: #4D6876;
+        float: right;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 27px;
+        font-family: 'Lato-Regular';
+    }
+
+    .blog .container .blog-btn {
+        font-family: 'Inter-Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 30px;
+        color: #FFFFFF;
+        background: #4D6876;
+        border-radius: 5px;
+        padding: 14px 48px;
+        border: none;
+        margin-top: 95px;
+    }
+
+    .blog .container .arrow {
+        border: solid #4D6876;
+        border-width: 0 2px 2px 0;
+        display: inline-block;
+        padding: 4px;
+        transform: rotate(-45deg);
+        margin: 1px 5px;
+    }
+
+    /* End of blog container */
+
+    /* start of Ortaklarimiz contianer */
+
+    .ortaklarımız {
+        background-color: #f5f5f5;
+        padding: 40px 0px;
+    }
+
+    .ortaklarımız .header-ortaklarımız {
+        font-family: 'Lato-Regular';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 60px;
+        color: #4D6876;
+        text-align: center;
+    }
+
+    .ortaklarımız .carousel-inner .carousel-container .solar-img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .container-kalmasin {
+        padding: 40px 100px;
+    }
+
+    .container-kalmasin .header-kalmasin {
+        font-family: 'Lato-Regular';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 60px;
+        color: #4D6876;
+        text-align: center;
+    }
+
+    .container-kalmasin .subheader-kalmasin {
+        font-family: 'Smooch-Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 49px;
+        color: #4D6876;
+        text-align: center;
+    }
+
+    .container-kalmasin .large-paragh {
+        position: relative;
+        width: 858px;
+        height: 682px;
+        padding: 90px 60px 75px 291px;
+        background: #EDEDED;
+        float: right;
+    }
+
+    .container-kalmasin .large-paragh .paragh-header-kalmasin {
+        font-family: 'Lato-Regular';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 30px;
+        color: #595959;
+    }
+
+    .container-kalmasin .large-paragh .paragh-kalmasin {
+        font-family: 'Lato-Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        color: #595959;
+    }
+
+    .container-kalmasin .yart10-img {
+        position: absolute;
+        z-index: 1;
+        top: 80px;
+    }
+
+    .container-kalmasin .large-paragh .card-footer {
+        background-color: #FFFFFF;
+        border-top: 0px solid #FFFFFF;
+        color: #4D6876;
+        float: right;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 27px;
+        font-family: 'Lato-Regular';
+        background: none;
+    }
+
+    .container-kalmasin .large-paragh .arrow {
+        border: solid #4D6876;
+        border-width: 0 2px 2px 0;
+        display: inline-block;
+        padding: 4px;
+        transform: rotate(-45deg);
+        margin: 1px 5px;
+    }
+
+    /* End of Ortaklarimiz container */
+
+    /* start of mobile contianer */
+    .mobile {
+        background-image: url("../images/mob-section-bg.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .mobile .container .mobile1-col .mobile-heading {
+        font-family: 'Lato-Regular';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 60px;
+        color: #FFFFFF;
+    }
+
+    .mobile .container .mobile1-col .mobile-paragh {
+        font-family: "Lato-Regular";
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 36px;
+        color: #FFFFFF;
+    }
+
+    .mobile .container .mobile2-col .mobile1-img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .mobile .container .mobile2-col {
+        margin-top: 250px;
+    }
+
+    .mobile .container .mobile1-col {
+        margin-top: 100px;
+    }
+
+}
